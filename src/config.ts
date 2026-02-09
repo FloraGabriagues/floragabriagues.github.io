@@ -1,92 +1,98 @@
 export const siteConfig = {
   name: "Flora Gabriagues",
-  title: "Space Systems Engineer – EO Payloads & Platforms",
+  title: "Optical Payload Performance & Image Quality Consultant",
   description:
   "Freelance Space Systems Engineer supporting Earth Observation payload and platform teams from design to in-orbit performance.",
   accentColor: "#00ffff",
   social: {
     email: "Flora.Gabriagues@etik.com",
     linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
     github: "https://github.com/RyanFitzgerald",
   },
   aboutMe:
-  "I am a freelance Space Systems Engineer specializing in Earth Observation payloads and platforms. I support engineering teams across system design, performance budgets, interfaces and in-orbit operations, with a strong focus on optical missions. I typically intervene as a system or payload resident expert to de-risk programs and support critical technical decisions.",
+  "I am a freelance Optical Payload and Image Quality Engineer specializing in Earth Observation missions. I provide remote support to engineering teams across system specification, performance budgets, interface definition, and in-orbit operations, with a strong focus on optical payloads. I typically intervene at targeted phases of a program, short or long term, to de-risk designs and support critical technical decisions at both system and payload level.",
   skills: ["Earth Observation Optical Systems", "Imaging Performance & Budgets","In-Orbit Performance", "Image Processing", "Python"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Optical Payload Teams",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "You are designing or evolving an optical payload. I support you on system specification, optical performance budgets, interfaces with platform and ground segment, and design trade-offs to de-risk critical phases of the program.",
+      link: "/missions/payload-engineering",
+      skills: ["Optical payloads", "Performance budgets", "Interfaces", "EO systems"],  
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Satellite Platform & Operations Teams",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
+        "You are responsible for platform design or satellite operations. I help ensure payload–platform coherence, manage interfaces, assess in-orbit performance, and support payload anomaly analysis in operation.",
+      link: "/missions/platform-and-operations",
+      skills: ["Payload–platform interfaces", "AOCS effect on images", "In-orbit imaging operations"],
+    },  
     {
-      name: "ExtensionKit",
+      name: "Satellite Image Users",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "You use Earth Observation imagery and need to understand its real performance, limits, and uncertainties. I help translate payload design and in-orbit behavior into actionable insights for image quality and use cases.",
+      link: "/missions/image-performance",
+      skills: ["Image quality", "Radiometry", "Geometric performance", "EO data understanding"],
     },
   ],
-  experience: [
-    {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
-      bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
-      ],
-    },
-    {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
-    },
-    {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
-    },
-  ],
+experience: [
+  {
+    company: "Independent · Freelance",
+    title: "Optical Payload Performance & Image Quality Freelance",
+    dateRange: "Jan 2026 – Present · Remote",
+    bullets: [
+      "Image quality performance analysis for Earth Observation optical payloads (SNR, MTF, spatial resolution, geolocation errors, LOS contributors).",
+      "Support to system and payload trade-off studies (optical architectures, detectors, STOP constraints, performance margins).",
+      "Technical support to calibration & validation activities and in-orbit performance assessment.",
+      "Contribution to system requirements definition and support to calls for tender and proposal phases.",
+      "Targeted technical interventions on specific mission phases, short or long term, to de-risk design and operational decisions."
+    ],
+  },
+  {
+    company: "PROMÉTHÉE Earth Intelligence",
+    title: "Optical Payload & Image Quality Engineer",
+    dateRange: "Jan 2024 – Aug 2025 · Toulouse, France",
+    bullets: [
+      "Optical payload system requirements definition and technical follow-up of subcontractors.",
+      "In-flight image quality analysis and development of image processing and performance assessment tools.",
+      "Calibration & Validation planning, tasking, and subcontractor technical coordination.",
+      "Technical support to Copernicus Contributing Mission (CCM) activities.",
+      "Supervision of internships on image processing topics (PRNU/DSNU detection, cloud detection, image deblurring)."
+    ],
+  },
+  {
+    company: "Airbus Defence and Space",
+    title: "EO Optical Payload Thermal Engineer",
+    dateRange: "Sept 2021 – Dec 2023 · Toulouse, France",
+    bullets: [
+      "Thermal modelling, design trade-offs, and performance analysis for high-resolution EO optical payloads.",
+      "Multiphysics (structural, thermal, optical) telescope design and performance optimization.",
+      "Development of improved thermal regulation linearization methods for optical systems.",
+      "Thermal vacuum test prediction, preparation, and supervision.",
+      "Supervision of internships and creation of an internal training program on thermal–optical coupling."
+    ],
+  },
+],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
+      school: "Observatoire de Paris | PSL",
+      degree: "Master 2 – Satellite Payload Design & Space Systems Engineering (OSAE)",
+      dateRange: "2020 – 2021",
       achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
+        "Advanced curriculum in systems engineering and physics applied to scientific satellite payloads.",
+        "Core topics: optical detection, optics, signal processing, space environment, EMC, cryogenics.",
+        "Specialization in numerical methods and machine learning for space data processing."
       ],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
+      school: "EPF Engineering School",
+      degree: "Engineering Degree – Aeronautics & Space Engineering",
+      dateRange: "2015 – 2020",
       achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
+        "Generalist engineering education in physics applied to aeronautics and space systems.",
+        "Key subjects: heat transfer, structural mechanics, fluid dynamics, electronics, electromagnetics, computer science.",
+        "Academic project: pre-design of a nanosatellite launcher for constellation deployment (CNES student project).",
+        "Design, prototyping, and flight testing of an unmanned aerial vehicle."
       ],
     },
   ],
