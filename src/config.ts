@@ -1,8 +1,9 @@
 export const siteConfig = {
   name: "Flora Gabriagues",
-  title: "Déesse éternelle",
-  description: "Portfolio website of Flora Gabriagues",
-  accentColor: "#1d4ed8",
+  title: "Space Systems Engineer – EO Payloads & Platforms",
+  description:
+  "Freelance Space Systems Engineer supporting Earth Observation payload and platform teams from design to in-orbit performance.",
+  accentColor: "#00ffff",
   social: {
     email: "Flora.Gabriagues@etik.com",
     linkedin: "https://linkedin.com/in/yourprofile",
@@ -10,8 +11,8 @@ export const siteConfig = {
     github: "https://github.com/RyanFitzgerald",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+  "I am a freelance Space Systems Engineer specializing in Earth Observation payloads and platforms. I support engineering teams across system design, performance budgets, interfaces and in-orbit operations, with a strong focus on optical missions. I typically intervene as a system or payload resident expert to de-risk programs and support critical technical decisions.",
+  skills: ["Earth Observation Optical Systems", "Imaging Performance & Budgets","In-Orbit Performance", "Image Processing", "Python"],
   projects: [
     {
       name: "AI Dev Roundup Newsletter",
