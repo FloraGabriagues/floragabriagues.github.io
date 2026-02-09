@@ -1,10 +1,10 @@
 export const siteConfig = {
   name: "Flora Gabriagues",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  title: "Déesse éternelle",
+  description: "Portfolio website of Flora Gabriagues",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
+    email: "Flora.Gabriagues@etik.com",
     linkedin: "https://linkedin.com/in/yourprofile",
     twitter: "https://x.com/rfitzio",
     github: "https://github.com/RyanFitzgerald",
