@@ -2,10 +2,12 @@
 import { defineConfig } from "astro/config";
 import tailwindcss from "@tailwindcss/vite";
 
-// https://astro.build/config
 export default defineConfig({
   site: "https://floragabriagues.github.io",
+  build: {
+    assets: "_astro",
+  },
   vite: {
-  plugins: [tailwindcss()],
+    plugins: [tailwindcss()],
   },
 });
