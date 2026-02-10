@@ -6,32 +6,32 @@ export const siteConfig = {
   accentColor: "#00ffff",
   social: {
     email: "Flora.Gabriagues@etik.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    github: "https://github.com/RyanFitzgerald",
+    linkedin: "https://www.linkedin.com/in/flora-gabriagues",
+    github: "",
   },
   aboutMe:
-  "I am a freelance Optical Payload and Image Quality Engineer specializing in Earth Observation missions. I provide remote support to engineering teams across system specification, performance budgets, interface definition, and in-orbit operations, with a strong focus on optical payloads. I typically intervene at targeted phases of a program, short or long term, to de-risk designs and support critical technical decisions at both system and payload level.",
+  "I am a freelance Optical Payload and Image Quality Engineer specializing in Earth Observation missions. I provide remote support to engineering teams across system specification, performance budgets, interface definition, and in-orbit operations. I typically intervene, on short or long term missions, to de-risk designs and support technical decisions at both system and payload level.",
   skills: ["Earth Observation Optical Systems", "Imaging Performance & Budgets","In-Orbit Performance", "Image Processing", "Python"],
   projects: [
     {
       name: "Optical Payload Teams",
       description:
         "You are designing or evolving an optical payload. I support you on system specification, optical performance budgets, interfaces with platform and ground segment, and design trade-offs to de-risk critical phases of the program.",
-      link: "/missions/payload-engineering",
+      link: "/missions/payload",
       skills: ["Optical payloads", "Performance budgets", "Interfaces", "EO systems"],  
     },
     {
       name: "Satellite Platform & Operations Teams",
       description:
         "You are responsible for platform design or satellite operations. I help ensure payload–platform coherence, manage interfaces, assess in-orbit performance, and support payload anomaly analysis in operation.",
-      link: "/missions/platform-and-operations",
+      link: "/missions/platform-operator",
       skills: ["Payload–platform interfaces", "AOCS effect on images", "In-orbit imaging operations"],
     },  
     {
-      name: "Satellite Image Users",
+      name: "Satellite Images Users",
       description:
         "You use Earth Observation imagery and need to understand its real performance, limits, and uncertainties. I help translate payload design and in-orbit behavior into actionable insights for image quality and use cases.",
-      link: "/missions/image-performance",
+      link: "/missions/image-user",
       skills: ["Image quality", "Radiometry", "Geometric performance", "EO data understanding"],
     },
   ],

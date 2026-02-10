@@ -1,0 +1,46 @@
+---
+import PageLayout from "../../layouts/PageLayout.astro";
+import PageBanner from "../../components/PageBanner.astro";
+import MissionPlatform from "../../components/MissionPlatform.astro";
+
+const missions = [
+  {
+    title: "Platform impact assessment on imaging performances",
+    phase: "Phase A / B",
+    duration: "On-demand",
+    bullets: [
+      "Assessment of platform contributors affecting imaging performance",
+      "Analysis of pointing accuracy, stability, jitter and thermal effects",
+      "Simulation of platform impact on the image",
+      "Consistency checks between platform specifications and payload needs",
+    ],
+    deliverables: [
+      "Platform impact assessment report",
+      "Sensitivity and risk matrix",
+      "Interface and design recommendations",
+    ],
+  },
+  {
+    title: "In-orbit imaging performance monitoring & anomaly investigation",
+    phase: "In-orbit operations",
+    duration: "On-demand",
+    bullets: [
+      "Operational analysis of in-orbit image data for day-to-day performance monitoring",
+      "Python tools development for automated image quality indicators tracking by operations teams",
+      "Early detection of image quality drifts, degradations and unexpected behaviors",
+      "Anomaly investigation combining image metrics, payload telemetry and platform data",
+      "Support to operational decision-making, corrective actions and parameter tuning"
+    ],
+    deliverables: [
+      "Image quality monitoring dashboards or reports",
+      "Anomaly investigation reports with root-cause analysis",
+      "Performance trend analysis and operational recommendations",
+    ],
+  }
+];
+---
+
+<PageLayout>
+  <PageBanner image="/images/satellite.jpg" />
+  <MissionPlatform missions={missions} />
+</PageLayout>

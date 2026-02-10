@@ -1,0 +1,28 @@
+---
+import PageLayout from "../../layouts/PageLayout.astro";
+import PageBanner from "../../components/PageBanner.astro";
+import MissionUser from "../../components/MissionUser.astro";
+
+const missions = [
+  {
+    title: "Application-driven satellite data usage & performance advisory",
+    phase: "All phases",
+    duration: "On-demand",
+    bullets: [
+      "Translation of system-level performance into application-level impacts",
+      "Support to data selection and processing strategy",
+      "Performance sensitivity analysis for downstream algorithms",
+      "Support to customer communication",
+    ],
+    deliverables: [
+      "Application-oriented performance notes",
+      "Data usage guidelines",
+    ],
+  }
+];
+---
+
+<PageLayout>
+  <PageBanner image="/images/satellite.jpg" />
+  <MissionUser missions={missions} />
+</PageLayout>

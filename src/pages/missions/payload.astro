@@ -1,0 +1,108 @@
+---
+import PageLayout from "../../layouts/PageLayout.astro";
+import PageBanner from "../../components/PageBanner.astro";
+import PageHero from "../../components/PageHero.astro";
+import MissionsPayload from "../../components/MissionsPayload.astro";
+
+const missions = [
+  {
+  title: "Imaging Performance Budget review & risk assessment",
+  phase: "Phase A / B / C",
+  duration: "10–15 working days",
+  bullets: [
+    "Independent review of imaging performance budgets (SNR, MTF, LoS...)",
+    "Assessment of contributors (optics, detector, platform, operations)",
+    "Identification of critical performance drivers and sensitivities",
+    "Gap analysis versus mission requirements",
+  ],
+  milestones: [
+    "Kick-off: Inputs/outputs confirmation, documentation delivery and scope alignment",
+    "1-3 days: Documentation review (CONOPS, system/payload specification, datasheets, studies...)",
+    "4-5 days: Review of performance budgets, hypothesis, models, coherence with imaging targets",
+    "4-5 days: Top performance drivers identification, parametric sensitivity analysis",
+    "1-2 days: Deliverables"
+  ],
+  deliverables: [
+    "Performance budget review report",
+    "Risk and sensitivity matrix",
+    "Mitigation recommendations",
+  ],
+  },
+  {
+    title: "Image simulation & acquisition modeling tools development",
+    phase: "Phase A / B",
+    duration: "20-30 working days",
+    bullets: [
+      "Development of image simulation tools (end-to-end or modular)",
+      "Modeling of acquisition geometry, radiometry, motion and noise effects",
+      "Support to imaging performance prediction and mission trade-off studies",
+      "Adaptation and integration within customer internal toolchains",
+    ],
+    milestones: [
+      "Kick-off: Definition of simulation objectives, scope, use cases and expected outputs",
+      "2-3 days: Review of mission & imaging requirements, acquisition scenarios and existing tools",
+      "4-6 days: Implementation of acquisition geometry, sampling and image formation models",
+      "2-4 days: Implementation of platform-related effects (LoS error, STR noise, guidance error)",
+      "4-6 days: Implementation of radiometric effects (MTF, SNR)",
+      "4-5 days: Validation on representative scenarios and comparison with analytical budgets or reference data",
+      "4-6 days: Documentation",
+    ],
+    deliverables: [
+      "Image simulation python tools",
+      "User documentation and modeling assumptions description",
+      "Reference use cases and validation test cases",
+    ],
+  },
+  {
+    title: "Calibration & Validation preparation and execution support",
+    phase: "in-orbit",
+    duration: "On-demand",
+    bullets: [
+      "Definition, review or refinement of Calibration & Validation (Cal/Val) strategy and success criteria",
+      "Support to ground and in-orbit Cal/Val test planning, tasking and scheduling",
+      "Analysis of calibration data and image quality performance monitoring",
+      "Investigation of image quality anomalies and support to corrective actions",
+      "Technical support to in-orbit commissioning and early operations phases",
+    ],
+    deliverables: [
+      "Cal/Val strategy review and support notes",
+      "Image quality and calibration analysis reports",
+      "Performance compliance and commissioning readiness assessment",
+    ],
+  },
+  {
+    title: "Paylaod-Platform interface impact assessment",
+    phase: "Phase A / B",
+    duration: "On-demand",
+    bullets: [
+      "Assessment of platform contributors (thermal, pointing, stability)",
+      "Impact analysis on optical and image quality performances",
+      "Interface consistency checks between payload and platform",
+      "Support to payload–platform trade-offs",
+    ],
+    deliverables: [
+      "Platform impact analysis report",
+      "Design recommendations",
+    ],
+  },
+  {
+    title: "Independent technical oversight",
+    phase: "All phases",
+    duration: "On-demand",
+    bullets: [
+      "Independent technical expertise on a subject related to optical payload performance",
+      "Support to design reviews and technical decision-making",
+      "Early identification of performance risks",
+      "Interface between system, payload and image quality teams",
+    ],
+    deliverables: [
+      "Technical review notes"
+    ],
+  },
+];
+---
+
+<PageLayout>
+  <PageBanner image="/images/satellite.jpg" />
+  <MissionsPayload missions={missions} />
+</PageLayout>
