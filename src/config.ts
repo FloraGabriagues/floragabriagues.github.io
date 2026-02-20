@@ -65,7 +65,7 @@ experience: [
     title: "EO Optical Payload Thermal Engineer",
     dateRange: "Sept 2021 – Dec 2023 · Toulouse, France",
     bullets: [
-      "Thermal modelling, design trade-offs, and performance analysis for high-resolution EO optical payloads.",
+      "Thermal modelling, design trade-offs, and performance analysis for high-resolution EO optical payloads: Pleiade NEO HR, CO3D, Aeolus Follow-On.",
       "Multiphysics (structural, thermal, optical) telescope design and performance optimization.",
       "Development of improved thermal regulation linearization methods for optical systems.",
       "Thermal vacuum test prediction, preparation, and supervision.",
