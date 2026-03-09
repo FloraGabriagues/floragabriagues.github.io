@@ -7,7 +7,7 @@ export const siteConfig = {
   social: {
     email: "Flora.Gabriagues@etik.com",
     linkedin: "https://www.linkedin.com/in/flora-gabriagues",
-    github: "",
+    github: "https://github.com/floragabriagues",
   },
   aboutMe:
   "I am a freelance Optical Payload and Image Quality Engineer specializing in Earth Observation missions. I provide remote support to engineering teams across system specification, performance budgets, interface definition, and in-orbit operations. I typically intervene, on short or long term missions, to de-risk designs and support technical decisions at both system and payload level.",
